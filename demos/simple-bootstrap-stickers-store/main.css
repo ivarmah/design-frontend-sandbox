@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+header {
+  padding: 20px 0;
+}
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav p {
+  font-weight: bold;
+}
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://ae01.alicdn.com/kf/HTB16_5KKpXXXXXPaXXXq6xXFXXX8.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+section .row .sticker {
+  margin: 0 0px 30px;
+  width: 555px;
+  height: 323.75px;
+  background-size: cover;
+}
+
+#sticker-1{
+  background-image: url('http://www.kultkanvas.co.uk/kultkanvas-co-uk/_img/_Shop/manga--hentai-vinyl-wall-art/naruto-yondaime-decal-vinyl-wall-sticker-mh9/Naruto_Yondaime_MH9.jpg');
+}
+
+#sticker-2{
+  background-image: url('https://ae01.alicdn.com/kf/HTB1JP89KFXXXXb0XpXXq6xXFXXXu/-font-b-Naruto-b-font-Cartoon-font-b-Wall-b-font-Stickers-font-b-Wall.jpg');
+}
+
+#sticker-3{
+  background-image: url('https://ae01.alicdn.com/kf/HTB1GjJVKFXXXXXRXVXXq6xXFXXXA/Uzumaki-font-b-Naruto-b-font-Cartoon-font-b-Wall-b-font-Stickers-font-b-Wall.jpg');
+}
+
+#sticker-4{
+  background-image: url('https://ae01.alicdn.com/kf/HTB1nfoCKpXXXXcKXXXXq6xXFXXXe/Uzumaki-font-b-Naruto-b-font-font-b-Wall-b-font-font-b-Decal-b-font.jpg');
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #e85ba8;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul {
+  list-style: none;
+}
+footer li img {
+  width: 32px;
+  height: 32px;
+}
